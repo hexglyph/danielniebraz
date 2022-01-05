@@ -7,7 +7,6 @@ export default function Logo(props) {
             w-14 h-16 
             relative
         `}>
-
             <Image src={props.src} alt={props.title} layout="fill" />
         </div>
     )
