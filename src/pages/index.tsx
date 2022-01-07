@@ -20,6 +20,7 @@ export default function Home() {
         <div className={`flex flex-col w-full`}>
           <Navbar title="daniel.niebraz" subtitle="front end dev" />
           <Content>
+            teste
             <div className={`flex flex-col`}>
               <Hero />
               <Projects />
