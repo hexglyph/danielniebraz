@@ -109,7 +109,7 @@ export const projects: Project[] = [
   {
     id: 2,
     project: 'Projeto',
-    name: "SP100",
+    name: "PetChecker",
     description:
       "Description",
     image_path: "/project/2.jpg",

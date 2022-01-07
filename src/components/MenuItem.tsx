@@ -25,7 +25,7 @@ export default function MenuItem(props) {
         <li onClick={props.onClick} className={`
             text-white hover:text-slate-50
             hover:bg-slate-50/10
-            rounded
+            rounded-lg
             cursor-pointer
             ring-1 mr-2 ring-sky-500/50
             `}>

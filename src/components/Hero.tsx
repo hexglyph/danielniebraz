@@ -4,11 +4,11 @@ import Bar from "./Bar"
 export default function Hero(props) {
     return (
         <div className={`flex w-full justify-items-start gap-x-4`}>
-            <div className={`text-left text-gray-100 flex flex-col w-1/6 ring-1 ring-sky-500/50 p-2 mt-4 rounded`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/6 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
-                    rounded text-white `}>
+                    rounded text-white`}>
                     About
                 </h3>
                 <ul className={`text-sm pl-4`}>
@@ -25,23 +25,35 @@ export default function Hero(props) {
                 </Link>
 
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
-                    rounded text-white `}>
-                    Code and Framework</h3>
+                    rounded text-white`}>
+                    Code</h3>
                 <div className={`flex w-full flex-col`}>
                     <Bar level={100} name='HTML' />
-                    <Bar level={100} name='CSS / SASS' />
-                    <Bar level={50} name='NextJS' />
-                    <Bar level={50} name='VueJS' />
-                    <Bar level={30} name='Flutter' />
-                    <Bar level={70} name='TailwindCSS' />
+                    <Bar level={100} name='CSS/SASS' />
+                    <Bar level={75} name='JS' />
+                    <Bar level={75} name='TS' />
                     <Bar level={100} name='Web Accessibility (WCAG)' />
                 </div>
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+                <h3 className={`text-lg w-full text-left font-semibold 
+                    underline decoration-4 decoration-sky-500
+                    pl-4 pr-5 mb-4 
+                    rounded text-white`}>
+                    Framework</h3>
+                <div className={`flex w-full flex-col`}>
+                    <Bar level={70} name='NextJS' />
+                    <Bar level={50} name='VueJS' />
+                    <Bar level={30} name='Flutter' />
+                    <Bar level={70} name='TailwindCSS' />
+
+                </div>
+            </div>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
@@ -51,22 +63,22 @@ export default function Hero(props) {
                     <Bar level={100} name='Photoshop' />
                     <Bar level={100} name='Illustrator' />
                     <Bar level={75} name='Adobe XD' />
-                    <Bar level={40} name='Blender' />
+                    <Bar level={100} name='Web Accessibility (WCAG)' />
                     <Bar level={90} name='Clip Studio Paint' />
                 </div>
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 items-center ring-1 ring-sky-500/50 p-2 mt-4 rounded`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 items-center ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
                     rounded text-white `}>
                     Experience</h3>
                 <ul>
-                    <li>PRODAM - São Paulo City ICT Company - 7 yrs as Front End Dev</li>
-                    <li>Butantan Foundation - 2 yrs as Web Designer</li>
-                    <li>Teleperformance - 2 yrs as Web Designer</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>PRODAM - São Paulo City ICT Company - 7 yrs - Front End Dev</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Butantan Foundation - 2 yrs - Web Designer</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Teleperformance - 2 yrs - Web Designer</li>
                 </ul>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
