@@ -74,7 +74,7 @@ export default function Hero(props) {
                     rounded text-white `}>
                     Experience</h3>
                 <ul>
-                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>PRODAM - São Paulo City ICT Company - 7 yrs - Front End Dev</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>ICT Company - 7 yrs - Front End Dev</li>
                     <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Butantan Foundation - 2 yrs - Web Designer</li>
                     <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Teleperformance - 2 yrs - Web Designer</li>
                 </ul>

@@ -100,7 +100,7 @@ export const projects: Project[] = [
     project: 'Projeto',
     name: "SP100",
     description:
-      "Description",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, dui vel scelerisque dapibus, sem lectus consequat libero, id commodo arcu dui eu ex. Aenean tristique erat ut ullamcorper scelerisque. In vitae posuere nulla. Vivamus sit amet posuere ipsum. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec urna tincidunt, viverra lorem nec, facilisis tellus. Maecenas lacinia metus a nunc aliquam, non fringilla urna tincidunt. Quisque sed volutpat orci. Vestibulum commodo lectus eu nulla varius, eu semper justo fermentum. Pellentesque luctus, ipsum id lobortis consequat, orci enim lacinia dui, sed pretium justo purus at libero.",
     image_path: "/project/1.jpg",
     deployed_url: "/",
     github_url: "/",
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     project: 'Projeto',
     name: "PetChecker",
     description:
-      "Description",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, dui vel scelerisque dapibus, sem lectus consequat libero, id commodo arcu dui eu ex. Aenean tristique erat ut ullamcorper scelerisque. In vitae posuere nulla. Vivamus sit amet posuere ipsum. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec urna tincidunt, viverra lorem nec, facilisis tellus. Maecenas lacinia metus a nunc aliquam, non fringilla urna tincidunt. Quisque sed volutpat orci. Vestibulum commodo lectus eu nulla varius, eu semper justo fermentum. Pellentesque luctus, ipsum id lobortis consequat, orci enim lacinia dui, sed pretium justo purus at libero.",
     image_path: "/project/2.jpg",
     deployed_url: "/",
     github_url: "/",
@@ -122,7 +122,7 @@ export const projects: Project[] = [
     project: 'Projeto',
     name: "TeamScore",
     description:
-      "Description",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, dui vel scelerisque dapibus, sem lectus consequat libero, id commodo arcu dui eu ex. Aenean tristique erat ut ullamcorper scelerisque. In vitae posuere nulla. Vivamus sit amet posuere ipsum. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec urna tincidunt, viverra lorem nec, facilisis tellus. Maecenas lacinia metus a nunc aliquam, non fringilla urna tincidunt. Quisque sed volutpat orci. Vestibulum commodo lectus eu nulla varius, eu semper justo fermentum. Pellentesque luctus, ipsum id lobortis consequat, orci enim lacinia dui, sed pretium justo purus at libero.",
     image_path: "/project/1.jpg",
     deployed_url: "/",
     github_url: "/",
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     project: 'Projeto',
     name: "Intra",
     description:
-      "Description",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, dui vel scelerisque dapibus, sem lectus consequat libero, id commodo arcu dui eu ex. Aenean tristique erat ut ullamcorper scelerisque. In vitae posuere nulla. Vivamus sit amet posuere ipsum. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec urna tincidunt, viverra lorem nec, facilisis tellus. Maecenas lacinia metus a nunc aliquam, non fringilla urna tincidunt. Quisque sed volutpat orci. Vestibulum commodo lectus eu nulla varius, eu semper justo fermentum. Pellentesque luctus, ipsum id lobortis consequat, orci enim lacinia dui, sed pretium justo purus at libero.",
     image_path: "/project/2.jpg",
     deployed_url: "/",
     github_url: "/",
