@@ -1,6 +1,11 @@
 import { createContext, useEffect, useState } from "react";
 
-const AppContext = createContext({})
+interface AppContextProps {
+    theme?: string
+    switchTheme?: () => void
+}
+
+const AppContext = createContext<AppContextProps>({})
 
 export function AppProvider(props) {
     const [theme, setTheme] = useState('')

@@ -14,9 +14,10 @@ export default function Bar(props) {
     }
 
     return (
-        <div className={`flex text-white rounded ml-4 mr-4 mb-2`}>
+        <div className={`flex flex-col text-white rounded ml-4 mr-4 mb-2`}>
+            <span className={``}>{props.name}</span>
             <div className={`flex items-center px-4 py-1 rounded-full bg-gradient-to-r ${barlvl()}`} style={{ width: barwidth }}>
-                <span className={`underline decoration-2 decoration-pink-500 underline-offset-2`}>{props.name}</span>
+
             </div>
         </div>
     )

@@ -11,15 +11,15 @@ export default function Hero(props) {
                     rounded text-white `}>
                     About
                 </h3>
-                <p className={`text-sm pl-4`}>
+                <ul className={`text-sm pl-4`}>
                     <span className={`text-base font-medium`}>Daniel NieBraz</span>
-                    <br></br>Front End Dev - UI/UX
-                    <br></br>São Paulo - Brazil
-                    <br></br>daniel.niebraz@gmail.com
-                    <br></br>Education background:
-                    <br></br>- Digital Design Degree
-                    <br></br>- Web Technologies and Innovation Graduate Certificate
-                </p>
+                    <li>Front End Dev - UI/UX</li>
+                    <li>São Paulo - Brazil</li>
+                    <li>daniel.niebraz@gmail.com</li>
+                    <li>Education background:</li>
+                    <li>- Digital Design Degree</li>
+                    <li>- Web Technologies and Innovation Graduate Certificate</li>
+                </ul>
                 <Link href="/resume.pdf" passHref>
                     <a className={`ring-1 ring-slate-500 w-full p-2 mt-4 rounded text-sm text-slate-200 hover:bg-slate-50 hover:text-slate-800`}>Download resume</a>
                 </Link>
@@ -51,6 +51,7 @@ export default function Hero(props) {
                     <Bar level={100} name='Photoshop' />
                     <Bar level={100} name='Illustrator' />
                     <Bar level={75} name='Adobe XD' />
+                    <Bar level={40} name='Blender' />
                     <Bar level={90} name='Clip Studio Paint' />
                 </div>
             </div>
@@ -60,11 +61,11 @@ export default function Hero(props) {
                     pl-4 pr-5 mb-4 
                     rounded text-white `}>
                     Experience</h3>
-                <p>
-                    PRODAM - São Paulo City ICT Company
-                    <br></br>    Butantan Foundation
-                    <br></br>    Teleperformance
-                </p>
+                <ul>
+                    <li>PRODAM - São Paulo City ICT Company - 7 yrs as Front End Dev</li>
+                    <li>Butantan Foundation - 2 yrs as Web Designer</li>
+                    <li>Teleperformance - 2 yrs as Web Designer</li>
+                </ul>
             </div>
         </div>
     )

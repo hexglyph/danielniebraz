@@ -1,0 +1,35 @@
+.projects {
+    display: flex;
+    min-width: 500px;
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    perspective: 1000px;
+}
+.conteudoResposta {
+    display: flex;
+    flex: 1;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.conteudoResposta.respostaRevelada {
+    transform: rotateY(180deg);
+}
+.frente, .verso {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+.frente {
+    background-color: #fff;
+    color: #000;
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+}
+.verso {
+    transform: rotateY(180deg);
+}
