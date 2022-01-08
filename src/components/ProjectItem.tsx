@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function ProjectItem(props: Project) {
 
     return (
-        <div className={`flex flex-1 ring-1 ring-sky-500/75 p-2 mt-2 rounded-lg`}>
+        <div className={`flex-[1_1_20%] ring-1 ring-sky-500/75 p-2 rounded-lg`}>
             <div className="flex w-full flex-col">
                 <div className="flex flex-col w-full text-white">
                     <h3 className={`text-lg font-semibold underline decoration-4 decoration-sky-500 mb-4`}>{props.name}</h3>
@@ -48,7 +48,7 @@ export default function ProjectItem(props: Project) {
                     ))}
                 </div>
             </div>
-        </div>
+        </div >
     )
 
 }

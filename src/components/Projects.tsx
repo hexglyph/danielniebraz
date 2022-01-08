@@ -8,7 +8,7 @@ export default function Projects() {
     function render() {
 
         return (
-            <div className={`flex w-full gap-2 mt-8 mb-8`}>
+            <div className={`flex flex-wrap w-full justify-start mt-4 gap-2`}>
                 {projetos.map((project, i) => {
                     return (
                         <ProjectItem
