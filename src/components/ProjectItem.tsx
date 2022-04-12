@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function ProjectItem(props: Project) {
 
     return (
-        <div className={`flex-[1_1_20%] ring-1 ring-sky-500/75 p-2 rounded-lg`}>
+        <div className={`flex-[1_1_20%] bg-slate-900 p-2 rounded-lg`}>
             <div className="flex w-full flex-col">
                 <div className="flex flex-col w-full text-white">
                     <h3 className={`text-lg font-semibold underline decoration-4 decoration-sky-500 mb-4`}>{props.name}</h3>
@@ -23,12 +23,12 @@ export default function ProjectItem(props: Project) {
                 <div className="flex w-full justify-between gap-2 text-white">
                     <div className="flex flex-col w-1/2">
                         <Link href={props.github_url} passHref>
-                            <span className={`cursor-pointer p-2 mt-2 mb-2 ring-1 ring-black rounded-lg hover:text-black hover:bg-slate-200`}>Github</span>
+                            <span className={`cursor-pointer p-2 mt-2 mb-2 ring-1 ring-slate-500 rounded-lg hover:text-black hover:bg-slate-200`}>Github</span>
                         </Link>
                     </div>
                     <div className="flex flex-col w-1/2">
                         <Link href={props.deployed_url} passHref>
-                            <span className={`cursor-pointer p-2 mt-2 mb-2 ring-1 ring-sky-700 rounded-lg hover:text-sky-700 hover:bg-sky-200`}>Project deploy</span>
+                            <span className={`cursor-pointer p-2 mt-2 mb-2 ring-1 ring-slate-700 rounded-lg hover:text-slate-700 hover:bg-slate-200`}>Project deploy</span>
                         </Link>
                     </div>
 

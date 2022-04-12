@@ -1,5 +1,5 @@
 import useAppData from '../data/hook/UseAppData'
-import { MoonSolidIcon, SunSolidIcon } from './Icons'
+import { MoonSolidIcon, SunSolidIcon, EyeIcon } from './Icons'
 
 export default function ToggleButton(props) {
     const { switchTheme } = useAppData()
@@ -17,6 +17,7 @@ export default function ToggleButton(props) {
                 w-6 h-6
                 rounded-full
             `}>
+                {EyeIcon}
             </div>
             <div className={`
                 hidden lg:flex items-center ml-2
@@ -27,8 +28,8 @@ export default function ToggleButton(props) {
     ) : (
         <div onClick={switchTheme} className={`toggletheme
             hidden sm:flex items-center justify-end
-            bg-gradient-to-r from-rose-500 to-pink-700
-            w-14 lg:w-18 h-8 p-1 rounded-full ml-4
+            bg-gradient-to-r from-slate-300 to-slate-900
+            w-14 lg:w-18 h-8 p-1 rounded-full ml-4 border
             cursor-pointer
         `}>
             <div className={`
@@ -38,10 +39,11 @@ export default function ToggleButton(props) {
             </div>
             <div className={`
                 flex items-center justify-center
-                bg-white text-red-600
+                bg-white text-black
                 w-6 h-6
                 rounded-full
             `}>
+                {EyeIcon}
             </div>
 
         </div>

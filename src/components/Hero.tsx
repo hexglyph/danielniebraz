@@ -3,8 +3,8 @@ import Bar from "./Bar"
 
 export default function Hero(props) {
     return (
-        <div className={`flex w-full justify-items-start gap-x-4`}>
-            <div className={`text-left text-gray-100 flex flex-col w-1/6 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+        <div className={`flex w-full justify-items-start gap-x-4 bg-slate-900 rounded-lg`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/6 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
@@ -21,11 +21,15 @@ export default function Hero(props) {
                     <li>- Web Technologies and Innovation Graduate Certificate</li>
                 </ul>
                 <Link href="/resume.pdf" passHref>
-                    <a className={`ring-1 ring-slate-500 w-full p-2 mt-4 rounded text-sm text-slate-200 hover:bg-slate-50 hover:text-slate-800`}>Download resume</a>
+                    <a className={`text-white hover:text-slate-50
+                        hover:bg-slate-50/10
+                        rounded-lg
+                        cursor-pointer
+                        ring-1 p-2 my-2 mx-4 ring-slate-500`}>Download resume</a>
                 </Link>
 
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
@@ -39,7 +43,7 @@ export default function Hero(props) {
                     <Bar level={100} name='Web Accessibility (WCAG)' />
                 </div>
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
@@ -53,7 +57,7 @@ export default function Hero(props) {
 
                 </div>
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
@@ -67,16 +71,16 @@ export default function Hero(props) {
                     <Bar level={90} name='Clip Studio Paint' />
                 </div>
             </div>
-            <div className={`text-left text-gray-100 flex flex-col w-1/5 items-center ring-1 ring-sky-500/50 p-2 mt-4 rounded-lg`}>
+            <div className={`text-left text-gray-100 flex flex-col w-1/5 items-center p-2 mt-4 rounded-lg`}>
                 <h3 className={`text-lg w-full text-left font-semibold 
                     underline decoration-4 decoration-sky-500
                     pl-4 pr-5 mb-4 
                     rounded text-white `}>
                     Experience</h3>
                 <ul>
-                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>ICT Company - 7 yrs - Front End Dev</li>
-                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Butantan Foundation - 2 yrs - Web Designer</li>
-                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-sky-500/25 rounded-lg`}>Teleperformance - 2 yrs - Web Designer</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-slate-500 rounded-lg`}>ICT Company - 7 yrs - Front End Dev</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-slate-500 rounded-lg`}>Butantan Foundation - 2 yrs - Web Designer</li>
+                    <li className={`ml-4 mr-4 mb-2 p-2 ring-1 ring-slate-500 rounded-lg`}>Teleperformance - 2 yrs - Web Designer</li>
                 </ul>
             </div >
         </div >

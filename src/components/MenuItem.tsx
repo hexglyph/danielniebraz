@@ -27,7 +27,7 @@ export default function MenuItem(props) {
             hover:bg-slate-50/10
             rounded-lg
             cursor-pointer
-            ring-1 mr-2 ring-sky-500/50
+            ring-1 mr-2 ring-slate-500
             `}>
             {props.url ? (
                 <Link href={props.url}>
